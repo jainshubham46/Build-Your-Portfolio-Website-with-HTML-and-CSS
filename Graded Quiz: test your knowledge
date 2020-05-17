@@ -1,0 +1,204 @@
+question1
+What is the purpose of HTML?
+
+
+It makes sure that contents look EXACTLY the same across all devices.
+
+
+It ensures sure that contents are encrypted during transmission across the Internet.
+
+
+It compresses the contents of web pages so that they can be transmitted more quickly.
+
+
+ans :-It provides information about contents so that client applications such as a web browser can render it to the user according to device capabilities.
+
+Correct
+Correct! We covered this in task 2.
+
+
+2.Question 2
+What are the three main HTML sections of a web page?
+
+
+top, body, bottom
+
+
+title, h1, p
+
+
+ANS:-header, body, footer
+
+
+margin-top, body, margin-bottom
+
+Correct
+Correct! We started off with a skeleton HTML file with just those three empty sections in task 3.
+
+
+Which of these HTML lines specifies that the title "The Great Highway" should be shown on the top of the browser or the tab for a web page?
+
+
+<headline>The Great Highway</headline>
+
+
+ANS :-<title>The Great Highway</title>
+
+
+<title text="The Great Highway">
+
+
+<caption>The Great Highway</capation>
+
+Correct
+Correct!
+
+1 / 1 point
+4.Question 4
+Which of these statements about hyperlinks in HTML is INCORRECT?
+
+
+Hyperlinks in HTML are specified with the anchor tag <a>
+
+
+ANS :- Hypertlinks can only jump to another local file on the same server.
+
+
+The destination for the hyperlink is specified with the href attribute of the anchor tag <a>.
+
+
+The text for the hyperlink anchor can be formatted using CSS
+
+Correct
+This is incorrect and therefore is the right answer. Hyperlinks can jump to a local file (like we did with resume.html) or files that are located on an external server, (like we did with GitHub.com).
+
+
+5.Question 5
+The relationship between HTML and CSS is best described as:
+
+
+They are unrelated.
+
+
+CSS specifies contents and HTML specifies formats and styles.
+
+
+CSS is a subset of HTML.
+
+
+ANS :-HTML specifies contents and can use CSS to format and style the contents.
+
+Correct
+Correct!
+
+
+6.Question 6
+Which of these HTML code snippets is INVALID?
+
+
+<p><h2>Table of Contents</h2></p>
+
+
+ANS:- <p><h2>Table of Contents</p></h2>
+
+
+<h2><a href="toc.html">Table of Contents</h2>
+
+
+<h2>Table of Contents</h2>
+
+<h3>Chapter 1</h3>
+
+Correct
+Correct! HTML tags can be nested but they cannot cross boundaries.
+
+7.Question 7
+How do you apply a stylesheet to an HTML file?
+
+
+Use a link tag in the footer section of the HTML file:
+
+<link rel="stylesheet" href="css/master.css">
+
+
+ANS :- Use a link tag in the header section of the HTML file:
+
+<link rel="stylesheet" href="css/master.css">
+
+
+Put the stylesheet file in the same directory as the HTML file and use the same file name but with a .css extension.
+
+
+You list all the HTML files that the stylesheet applies to at the top in the stylesheet file.
+
+Correct
+Correct!
+
+
+8.Question 8
+What does this CSS code do when applied to an HTML file?
+
+body {
+
+color: black;
+
+}
+
+h1 {
+
+color: red;
+
+}
+
+
+It turns the background color of all the level 1 headers text red.
+
+
+This is invalid and has no effect. The correct attribute is font-color.
+
+
+This is invalid because we already specified the font color of the body to be black and it cannot be redefined for h1.
+
+
+ANS :- It turns all the level 1 header text red.
+
+Correct
+Correct! The font color black would have cascaded to h1 but we overrode it with the color red in h1.
+
+9.Question 9
+Which of the following statement is true regarding font specification in CSS?
+
+
+Fixed pitch font such as Courier cannot used to render web pages.
+
+
+PC and Mac typically have the same fonts installed.
+
+
+You should never specify a particular font by name. You should only use font family names and let the browser pick the closest font in that family that is installed in the client machine.
+
+
+ANSI:- t is not possible to know whether a client machine has the font that we desire installed.
+
+Correct
+Correct! Therefore we specify a list in order of preferences for the web browser client to fall back on.
+
+
+10.Question 10
+What does the alt= attribute in an HTML image tag <img> do?
+
+
+ANS :-It tells the browser to display a piece of text in place of an image in case it cannot be found or loaded.
+
+
+It tells the browser to display an alternative image in place of an image in case it cannot be found or loaded.
+
+
+It tells the browser the alternative location of an image in case it cannot be found or loaded.
+
+
+It tells the browser to alternate the image with another one randomly for each client request.
+
+Correct
+Correct!
+
